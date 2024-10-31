@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active {
+            color: yellowgreen;
+        }
+
+        .especial {
+            background-color: lightcoral;
+        }
+
+        .especial::after {
+            content: ' ⇐';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://br.pinterest.com/lauraossantoss/" target="_blank">Página no Pinterest</a></li>
+        <li><a href="https://www.linkedin.com/in/lauraoliveiradossantos/" target="_blank" class="especial">Perfil no LinkedIn</a></li>
+        <li><a href="https://medium.com/@laura.oliveiradsantos" target="_blank">Conta do Medium</a></li>
+    </ul>
+</body>
+</html>

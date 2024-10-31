@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte</h2>
+    <p>O comando <code>document.getElementByld('teste')</code> é escrito em linguagem JavaScript.</p> <!--fonte monoespaçada-->
+    <pre>
+        <code>
+num = int(input('Digite um número'))
+if num % == 0:
+    print(f'O numero {num} é PAR')
+else:
+    print(f'O numero {num} é IMPAR')
+print('Fim do programa')
+        </code>
+    </pre> <!--com o evelope "pre" as quebras de linha, indexações, sao consideradas. O "code" é só para letra monoespaçada-->
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido.</q></p> <!--q de quote-->
+    <h2>Citações completas</h2>
+    <p>Segundo Elizabeth Castro, no seu livro HTML, XHTML, and CSS, Sixth Edition:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML_XHTML_and_CSS_Sixth_Edition/kLfQQShrTXoC?hl=pt-BR&gbpv=0">
+        Need to learn HTML fast? This best-selling reference's visual format and step-by-step, task-based instructions will have you up and running with HTML in no time.
+    </blockquote> <!--o parametro cite serve para colocar o link da onde veio aquela informação, nao vai aparecer nada visual no site mas os parametros de busca do google vao linkar as informações-->
+    <h2>Abraviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando.</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">estou apredendo a criar coisas em html. </bdo></p> <!--texto invertido-->
+</body>
+</html>

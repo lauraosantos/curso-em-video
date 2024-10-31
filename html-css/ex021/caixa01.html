@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+
+        .box {
+            background-color: lightgray;
+            height: 100px;
+            width: 100px;
+            
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkgrey;
+            /* shorthand border ou outline: 10px solid darkgrey; */
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            /* shorthand padding ou margin: 10px 5px 10px 5px; 
+
+            se todos os lados forem iguais basta colocar uma vez
+            se colocar duas medidas o primeiro equivale ao debaixo e decima e o segundo da esquerda e da direita*/
+
+            margin: auto;
+            /* da para deixar cada lado da borda em 'auto separadamente'*/
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            /* as quatro linhas de cima o chat gpt que me ajudou pq o texto do h1 tava saindo do background cinza*/
+        }
+
+        h1 {
+            font-size: 1em;
+            margin: o;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Exemplo de caixa box-level</h1>
+    </div>
+
+    <p>Parágrafos também são exemplos de box-level, mas os <a href='#'> links</a> são exemplos de caixas inline-level, vamos ver como tudo isso funciona.</p>
+</body>
+</html>
